@@ -18,35 +18,29 @@ Note that the Main branch is the only deployed code and changes are not released
 
 ### Github Workflow
 
-When developing a feature...
-1. **Cloning the remote repository** (into local computer) : creates a complete version history
-2. **Pushing** (to remote) **and pulling changes** (changes from remote to local)
-3. **Implementing the feature** : update files in local repository
-4. **Creating a branch** : make changes in a new isolated branch without affecting the main branch - add a feature without affecting the main branch
-5. **Commiting files** : move the files to the staging area (a temporary storage) and then commit the new feature to the newly created branch
-6. **Pushing changes to the remote repository** : push in the branch 
-7. **Reviewing the code** : Pull request and let the main branch manager control the code and verify if it's ready to be merged to the main branch
+When *Starting a new project*...
+1. **Create a local repository** : initial Git repository inside local pc
+2. **Select files to include** : any files related to the new project
+3. **Move to staging area** : the staging area is a temporary storage where files are put before commiting changes
+4. **Commit to local git repository** : update to local main branch
+5. **Push all the project file to the remote repository** : officially create the remote repository for collaboration
+6. **Cloning of repository to develop project** : by individual developers to create changes / features
+7. ...
+8. **Review and approve codes** : the owner of the repository verifies the code and merge the respective branches to the main branch
 
-When Starting a new project...
-1. Create a local repository
-2. Select files to include
-3. Move to staging area
-4. Commit to local git repository
-5. Push all the project file to the remote repository
-6. Cloning of repository to develop project
+When *Developing a feature*...
+1. **Cloning the remote repository** (into local computer) : creates a complete version history, pull changes when needed
+2. **Creating a branch** : create a new isolated branch and work on it without affecting the main branch
+3. **Commiting files** : move the files to the staging area (a temporary storage) and then commit (locally) the new feature to the newly created branch
+4. **Pushing changes to the remote repository** : push in the remote repository (the new branch) 
+5. **Pull request for review** : Pull request and let the main branch manager control the code and verify if it's ready to be merged to the main branch
+
+When *Releasing project*...
+1. **Creation of release branch**: lead developer finished all reviews an merged codes to main branch and is now ready to create another branch for release from the main branch in the remote repository
+2. **Pull change from remote release branch**: each developer will update their local clones
+3. **Perform test and updates**: individual developers will test and makes documentation updates regarding the release
+4. **Push commits to remote and create pull request**: each developer will commit the tested and updated code and creates a pull request to finalize project
+5. **Approval of pull request and merge changes** : Lead developer will review changes and approve pull requests then proceeds to merging the changes to the release branch 
 
 
-In other words..
-START OF PROJECT
-1. Initialize Git Repository (locally)
-2. Select and move project files to Staging Area
-3. Perform initial commit (to local repository)
-4. Push commit to blank remote repository\
 
-5. Clone remote repository (for feature development)
-7. Create branches for features needed
-8. Commit changes to individual branches
-9. Push local branch to remote branch
-10. Create a pull request
-11. 
- 

@@ -1,5 +1,5 @@
 Some basic things
-
+---
 ### Github Branches
 Creates a copy of the main branch and allows check and verification 
 if can be inserted in the main branch. Code is usually branched while 
@@ -15,7 +15,7 @@ Note that the Main branch is the only deployed code and changes are not released
 3. Code is reviewed and approved
 4. Approved code is merged into the main branch
 
-
+---
 ### Github Workflow
 
 When *Starting a new project*...
@@ -42,5 +42,46 @@ When *Releasing project*...
 4. **Push commits to remote and create pull request**: each developer will commit the tested and updated code and creates a pull request to finalize project
 5. **Approval of pull request and merge changes** : Lead developer will review changes and approve pull requests then proceeds to merging the changes to the release branch 
 
+---
+### General Commands
 
+#### Command-Line commands
+- **mkdir**: creates new directory (where repositories are stored)
+- **cd**: navigate to the directory
 
+#### Git commands:
+- **git init**: sets up necessary files and data structures for project's version control
+- **git add**: moves changes from the working directory to the staging area / pushes new changes to staging area
+  - **git add <"filename.txt">**: to add a specific file (withouth " ")
+  - **git add .**: to add all the new or changed files in the current directory
+  - **git add -A**: to add all changes in the entire working tree regardless of where you are in the directory
+ 
+- **git reset**: resets changes in the working directory; when used with
+  - **git reset --hard HEAD**: (two dashes) discards/deletes all uncommited changes made to the working directory and staging area and resets the repository to the last commit (HEAD). Changes cannot be recovered.
+- **git commit - m "text"**: saves changes with a descriptive message "text" (with " ")
+- **git log**: enables to browse previous changes to a project
+- **git branch**: lists, creates, rename and deletes branches. to delete a branch, first check out the branch using **git checkout** and then run the command
+  - **git branch** : lists branches
+  - **git branch <'new-branch'>**: creates a new branch (without ' ')
+  - **git branch -d <'branch-name'>**: deletes branch (without ' ')
+- **git checkout**: allows to switch between existing branches
+  - **git checkout main**: switches to the main branch
+- **git merge**: merges feature branch to main branch
+- **git status**: allows to view the status of all changes
+- **git clone**: copies repository from a remote source to your local machine in your currect working directory.
+  - *Syntax:* **git clone <'repository URL'>** (without ' ')
+- **git pull**: fetches changes from a remote repository and merges into current local branch
+  - *Syntax:* **git pull origin main**
+- **git push**: uploads local repository content to remote repository
+  - *Syntax:* **git push origin <'branch-name'>** (without ' ')
+- **git version**: displays current Git version installed
+- **git diff**: shows changes between commits, cmmit and working tree. compares branches
+  - **git diff**: shows diff between working dir and last commit
+  - **git diff HEAD~1 HEAD**: shows diff between last and second-last commits
+  - **git diff <'branch-1'> <'branch-2'>**: compares the specified branches
+ 
+- **git revert**: reverts commit by applying a new commit - undoes changes by the last commit
+  - *Syntax:* **git revert HEAD**
+ 
+- **git config -global user.email <'YourGitHubE-mail'>**: sets global e-mail config for Git that has to be executed before doing a commit to authenticate the user's email ID. (without ' ')
+- **git config -global user.name <'YourGitHubUsername'>**: sets global username config fot Git. execute before commit. (without ' ')

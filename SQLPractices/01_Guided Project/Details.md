@@ -3,6 +3,7 @@
 This is a collection of notes from a Guided Project course in Coursera entitled "Data Analysis with SQL: Inform a Business Decision" by Judy Richardson.
 
 In the project, there's a business problem presented which I have to answer, together with the instructor, using SQL functions. The server used by the instructor is a MySQL server while I used a SQL Server from w3schools.com.
+
 The Practice project requires basic SQL functions like:
 - SELECT ..... AS ..... FROM ....
 - INNER JOIN
@@ -12,7 +13,6 @@ The Practice project requires basic SQL functions like:
 - HAVING
 - TOP ... (for SQL Server)
 - LIMIT ... (for MySQL Server)
-
 
 In this course, I also was able to:
 - Explore data and identify its structure

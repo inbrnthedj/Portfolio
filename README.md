@@ -14,6 +14,8 @@ A repository just to test and explore github.
 
 2. Python Practices
 3. SQL Practices
+    - Northwind Traders: Practice in a guided project from Coursera. Answers the following business question(s):
+        1. Which 5 employees shall be given incentive for having sold the order with the highest amount?
 
 
 ## Sources

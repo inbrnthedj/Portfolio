@@ -11,13 +11,12 @@ print(fruits.count("apple")) #Counts the number of times apple is found in tuple
 ''' ------------------------------------------------------------------------------------
 - index(): used to find the first occurrence of a specified value and returns its index.
     If the value is not found, it raises a ValueError.
-    SYNTAX: tuple_name.index(element)
+    SYNTAX: tuple_name.index(value)
 '''
-# This will return the index of the first occurrence of value in the tuple.
-tuple.index(value) 
 #Returns the index of the first occurrence of banana in tuple
 print(fruits.index("banana")) 
 #Output: 1
+''
 
 ''' ------------------------------------------------------------------------------------
 - sum(): This function returns the sum of all the items in the tuple, provided that

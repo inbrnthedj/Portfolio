@@ -1,0 +1,6 @@
+# Just for documentation purposes:
+*.ipynb linguist-documentation=true
+
+# Ensures the following are always counted
+*.sql linguist-detectable=true
+*.py linguist-detectable=true

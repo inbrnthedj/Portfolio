@@ -38,4 +38,30 @@ EXAMPLE CLASS CREATION (just for notes)
     result3 = method_reference(param1_value, param2_value, ...)
     -------------------------------------------------------
 
+3) ACCESSING OBJECT ATTRIBUTES
+    - acessing an object's attribute using dot notation
+    - "attribute_value = object1.attribute1" retrieves value of attribute1 from object1 and assigns it to 
+    the variable "attribute_value"
+-------------------------------------------------------
+# Accessing object attributes
+attribute_value = object1.attribute1  # Access the attribute using dot notation
+-------------------------------------------------------
+
+4) MODIFYING OBJECT ATTRIBUTES
+    - by using dot notation
+    - "object1.attribute2 = new_values" sets attribute2 of object1 to new_value
+-------------------------------------------------------
+# Modifying object attributes
+object1.attribute2 = new_value  # Change the value of an attribute using dot notation
+-------------------------------------------------------
+
+5) ACCESSING CLASS ATTRIBUTES (shared by all instances)
+    - "class_attr_value = ClassName.class_attribute" accesses the class attribute "class_attribute" from the
+    ClassName "class" and assigns its value to the variable "class_attr_value"
+-------------------------------------------------------
+# Accessing class attributes (shared by all instances)
+class_attr_value = ClassName.class_attribute
+-------------------------------------------------------
+
+
 '''

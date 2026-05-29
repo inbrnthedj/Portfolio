@@ -43,3 +43,14 @@ print("sibling_2=sibling_1.next_sibling: ",sibling_2)   # this shall return the 
 
 # Next Sibling: another way
 print(sibling_2.next_sibling)
+
+# HTML ATTRIBUTES
+# We can access tag attributes
+print(tag_child['id'])  # this will return the value of the attribute
+
+# We can also use the get() method
+print("using get(): ",tag_child.get('id'))
+
+# We can access directly as attrs:
+print(tag_child.attrs)  # this will return the attribute and its value
+

@@ -8,6 +8,7 @@ A collection of projects and practices for analytics skills.
     - Simple python scripts for notes and refreshers
 3. Python Projects
     - Car Dealership Management System: Creation of class "Vehicle" to store data of cars owned by company.
+    - Text Analysis: Creation of class "TextAnalyzer" to analyze the words in the string.
     - Crowdsourcing Shortsqueeze Dashboard: Data collection and webscraping from different sources to analyze and create a dashboard for a shortsqeeze. Used pandas, BeautifulSoup.
 4. SQL Practices
     - Northwind Traders: Practice in a guided project from Coursera. Answers the following business question(s):

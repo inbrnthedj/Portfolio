@@ -17,6 +17,8 @@ KEY FEATURES
 
 > CUSTOM DATA STRUCTURES:  can create custom data structures and manipulate data in ways that suits specific needs
 
+I created a csv file I normally extract from autoCAD tables in my isometric drawings for construction
+
 
 '''
 

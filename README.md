@@ -4,8 +4,8 @@ A collection of projects and practices for analytics skills.
 1. Basic GitHub 
     - Documentation of Course "Getting Started with Git and GitHub" by IBM on Coursera
 2. Python Practices
-    - Jupyter Notebooks of my notes for Python while following different courses
-    - Simple python scripts for notes and refreshers
+    - Jupyter Notebooks and Python scripts for practice
+    - Data structures, loops, Pandas, Numpy
 3. Python Projects
     - Car Dealership Management System: Creation of class "Vehicle" to store data of cars owned by company.
     - Text Analysis: Creation of class "TextAnalyzer" to analyze the words in the string.

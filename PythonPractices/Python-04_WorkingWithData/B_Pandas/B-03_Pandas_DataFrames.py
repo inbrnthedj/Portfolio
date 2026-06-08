@@ -47,13 +47,15 @@ print(df.loc[1])    # Access the second row by label
 
 # SLICING DATAFRAMES
 print(df[['Name', 'Age']])  # Select specific columns
-print(df[1:3])             # Select specific rows
+print(df[1:3])             # Select specific rows - from 1 to 2, excluding 3
 
 # FINDING UNIQUE ELEMENTS - .unique()
 unique_dates = df['Age'].unique()
+print(unique_dates)
 
 # CONDITIONAL FILTERING - inequality operators
 high_above_102 = df[df['Age'] > 25]
+print(high_above_102)
 
 # SAVING DATAFRAMES - .to_scv
 df.to_csv('trading_data.csv', index=False)
